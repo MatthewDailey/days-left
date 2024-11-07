@@ -3,9 +3,9 @@
   "displayName": "days-left",
   "description": "A status bar element that tells me how many days left of leave.",
   "publisher": "reactiverobot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.93.0"
   },
   "categories": [
     "Other"
@@ -34,7 +34,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.95.0",
+    "@types/vscode": "^1.93.0",
     "@types/mocha": "^10.0.9",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
