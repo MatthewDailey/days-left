@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "days-left.helloWorld",
-        "title": "Hello World"
+        "command": "days-left.calculateDaysLeft",
+        "title": "Days Left"
       }
     ]
   },
