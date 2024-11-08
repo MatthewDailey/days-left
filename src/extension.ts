@@ -1,3 +1,4 @@
+import { subscribe } from "diagnostics_channel";
 import * as vscode from "vscode";
 
 const getDaysLeft = () => {
@@ -14,6 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
   statusBarItem.text = `${getDaysLeft()} days`;
   statusBarItem.show();
+
   context.subscriptions.push(statusBarItem);
 }
 
